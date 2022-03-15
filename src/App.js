@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
     <div className='container mx-auto'>
       <div className='header flex justify-between border-b border-slate-300 py-2 text-sm'>
         <div className='flex gap-8'>
-          <a href='#' className='text-blue-500'>Chat With Us</a>
+          <a href='www.instagram.com' className='text-blue-500'>Chat With Us</a>
           <p>0822 1366 5548</p>
           <p>hallo@maubeliapa.com</p>
         </div>
@@ -20,16 +19,16 @@ function App() {
       </div>
       {/* header */}
       <div className='siteInfo flex justify-between py-14'>
-        <img src='/images/logo.png'/>
+        <img src='/images/logo.png' alt='logo'/>
         {/* <h1 className='text-3xl font-bold'>Maubeliapa.com</h1> */}
         <div className='flex w-full justify-center   '>
           <input type="text" className='bg-gray-100 w-2/4 rounded-2xl text-xl pl-3'/>
-          <img src='/images/search-icon.png' className='w-4 h-4 self-center -ml-8'/>
+          <img src='/images/search-icon.png' className='w-4 h-4 self-center -ml-8' alt='search'/>
         </div>
           <div className='flex gap-5'>
-            <img src='/images/user-icon.png' className='w-7 h-7 self-center' />
+            <img src='/images/user-icon.png' alt='user-icon' className='w-7 h-7 self-center' />
             <div className='relative w-9 h-9'>
-              <img src='/images/cart-icon.png' className='w-full h-full self-center' />
+              <img src='/images/cart-icon.png' alt='cart-icon' className='w-full h-full self-center' />
               <div className='absolute -bottom-2 -left-1 text-xs bg-red-500 rounded-full w-4 h-4 text-center text-white'>4</div>
             </div>
           </div>
@@ -135,51 +134,51 @@ function App() {
           <div className='flex my-3'>
             <input type='checkbox' className='self-center'/>
             <ul className='flex px-2'>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
             </ul>
           </div>
           <div className='flex my-3'>
             <input type='checkbox' className='self-center'/>
             <ul className='flex px-2'>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
             </ul>
           </div>
           <div className='flex my-3'>
             <input type='checkbox' className='self-center'/>
             <ul className='flex px-2'>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star.png'/></li>
-              <li><img src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
             </ul>
           </div>
           <div className='flex my-3'>
             <input type='checkbox' className='self-center'/>
             <ul className='flex px-2'>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star.png'/></li>
-              <li><img src='/images/star.png'/></li>
-              <li><img src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
             </ul>
           </div>
           <div className='flex my-3'>
             <input type='checkbox' className='self-center'/>
             <ul className='flex px-2'>
-              <li><img src='/images/star-full.png'/></li>
-              <li><img src='/images/star.png'/></li>
-              <li><img src='/images/star.png'/></li>
-              <li><img src='/images/star.png'/></li>
-              <li><img src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star-full.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
+              <li><img alt='#' src='/images/star.png'/></li>
             </ul>
           </div>
         </div>
@@ -218,7 +217,7 @@ function App() {
           <div className='flex flex-wrap gap-7'>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4 '>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-              <img src='images/laptop-1.png'/>
+              <img alt='#'  src='images/laptop-1.png'/>
                 <p className='pt-2 font-bold'>Vivobook Flip TP412FA</p>
                 <p className='font-thin'>i3-1005G1 8GB 512</p>
                 <div className='harga flex justify-between'>
@@ -233,7 +232,7 @@ function App() {
             </div>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4'>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-                  <img src='images/laptop-2.jpg'/>
+                  <img alt='#' src='images/laptop-2.jpg'/>
                 <p className='pt-2 font-bold'>ASUS ZENBOOK 13 OLED UM325UA</p>
                 <p className='font-thin'>R5-5500U 8GB 512GB 13.3"</p>
                 <div className='harga flex justify-between'>
@@ -248,7 +247,7 @@ function App() {
             </div>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4'>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-                  <img src='images/printer-1.jpg'/>
+                  <img alt='#' src='images/printer-1.jpg'/>
                 <p className='pt-2 font-bold'>PRINTER BARCODE THERMAL</p>
                 <p className='font-thin'>EP-9200U USB + HOLDER</p>
                 <div className='harga flex justify-between'>
@@ -263,7 +262,7 @@ function App() {
             </div>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4'>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-                  <img src='images/battery-1.jpg'/>
+                  <img alt='#' src='images/battery-1.jpg'/>
                 <p className='pt-2 font-bold'>BATRE LAPTOP LENOVO G480</p>
                 <p className='font-thin'>ORIGINAL</p>
                 <div className='harga flex justify-between'>
@@ -278,7 +277,7 @@ function App() {
             </div>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4'>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-                  <img src='images/pc-1.jpg'/>
+                  <img alt='pc' src='images/pc-1.jpg'/>
                 <p className='pt-2 font-bold'>PC Gaming Komputer Rakitan</p>
                 <p className='font-thin'>Intel i9 10850K RTX 3070</p>
                 <div className='harga flex justify-between'>
@@ -293,7 +292,7 @@ function App() {
             </div>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4'>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-                  <img src='images/monitor-1.jpg'/>
+                  <img alt='monitor' src='images/monitor-1.jpg'/>
                 <p className='pt-2 font-bold'>Monitor LED LG 29WP500</p>
                 <p className='font-thin'>Ultrawide HDR10 IPS 75hz</p>
                 <div className='harga flex justify-between'>
@@ -308,7 +307,7 @@ function App() {
             </div>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4'>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-                  <img src='images/speaker-1.jpg'/>
+                  <img alt='speaker' src='images/speaker-1.jpg'/>
                 <p className='pt-2 font-bold'>VYATTA Platinum Hitz</p>
                 <p className='font-thin'>USB/TF-MEGA BASS</p>
                 <div className='harga flex justify-between'>
@@ -323,7 +322,7 @@ function App() {
             </div>
             <div className='relative border-2 border-grey-200 rounded-2xl p-4'>
               <div className='absolute bg-blue-100 p-1 rounded-xl text-sm ml-3 mt-2 text-red-500'>-36%</div>
-                  <img src='images/usb-1.png'/>
+                  <img alt='usb' src='images/usb-1.png'/>
                 <p className='pt-2 font-bold'>Ugreen USB Bluetooth 5.0</p>
                 <p className='font-thin'>Dongle PC Smartphone - BT 5.0</p>
                 <div className='harga flex justify-between'>
